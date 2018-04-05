@@ -1,0 +1,26 @@
+<ion-list>
+    <ion-item *ngFor="let item of items" (click)="close(item)">
+        {{ item }}
+    </ion-item>
+
+  <ion-row margin-left>
+        <ion-col col-7>
+            <ion-label> Sticky mode</ion-label>
+        </ion-col>
+        <ion-col>
+                <button ion-button clear small>
+                    <icon-toggle></icon-toggle>
+              </button>
+            </ion-col>
+    </ion-row>
+    <ion-row margin-left>
+        <ion-col col-7>
+            <ion-label>Apply to all</ion-label>
+        </ion-col>
+        <ion-col>
+            <button ion-button clear small>
+                <icon-toggle></icon-toggle>
+            </button>
+        </ion-col>
+    </ion-row>
+</ion-list>
