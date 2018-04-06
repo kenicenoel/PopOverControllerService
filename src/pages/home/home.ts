@@ -35,7 +35,7 @@ export class HomePage
   showPopOver(event)
   {
     this.popOverService.presentPopover(event);
-    this.selectedItem = this.popOverService.selectedData
+    //this.selectedItem = this.popOverService.selectedData
   }
 
  
