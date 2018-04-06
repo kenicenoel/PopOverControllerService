@@ -10,7 +10,7 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { PopOverService } from '../services/popover-service';
 import { DatePopoverPage } from '../pages/date-popover/date-popover';
-import { CalendarModule } from 'ionic3-calendar-en';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -22,8 +22,7 @@ import { CalendarModule } from 'ionic3-calendar-en';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
-    CalendarModule
+    IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
